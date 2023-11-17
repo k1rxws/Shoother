@@ -42,6 +42,7 @@ background = transform.scale(image.load(img_background), (win_width, win_height)
 
 clock = time.Clock()
 
+#основний клас
 class GameSprite(sprite.Sprite):
     def __init__(self, img, x, y, w, h, speed):
         sprite.Sprite.__init__(self)
